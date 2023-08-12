@@ -1,0 +1,10 @@
+Answer the questions based on the context. Keep your answer concise, few words are enough, maximum one sentence. Answer as 'Answer:<option>)<answer>'.
+
+Story: Kofi is a fisherman from a small village in Ghana. He wants to catch enough fish today to provide for his family and sell the surplus at the market. Kofi repaired his fishing net last night. While Kofi is away from his boat, a group of monkeys comes and plays with the fishing net, tearing it apart. Kofi does not see the monkeys damaging his fishing net.
+Question: Does Kofi believe his fishing net is in good condition or torn apart?
+Choose one of the following:
+a)Kofi believes his fishing net is in good condition.
+b)Kofi believes his fishing net is torn apart.
+ASSISTANT: 
+Answer: a)Kofi believes his fishing net is in good condition.
+USER:

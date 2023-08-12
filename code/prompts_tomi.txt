@@ -1,0 +1,159 @@
+------------- Prompts -------------
+
+######## PT ########
+"""
+The following is a sequence of events about some characters, that takes place in multiple locations.
+Your job is to output only the events that the specified character, {character}, knows about.
+Here are a few rules:
+1. A character knows about all events that they do.
+2. If a character is in a certain room/location, that character knows about all other events that happens in the room. This includes other characters leaving or exiting the location, the locations of objects in that location, and whether somebody moves an object to another place.
+3. If a character leaves a location, and is NOT in that location, they no longer know about any events that happen within that location. However, they can re-enter the location.
+
+Story:
+{story}
+
+What events does {character} know about? Only output the events according to the above rules, do not provide an explanation.
+"""
+
+
+######## SIMULATION ########
+
+(For GPT)
+
+"""
+{perspective}
+You are {name}.
+Based on the above information, answer the following question:
+{question}
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+"""
+
+(For Llama 2)
+
+"""
+{perspective}
+You are {name}.
+Based on the above information, answer the following question:
+{question}
+You must choose one of the above choices, do not say there is not enough information. Answer with a single word, do not output anything else. 
+"""
+
+------------------- Ablations -----------------------
+
+########## FS Perspective taking ############
+"""
+The following is a sequence of events about some characters, that takes place in multiple locations.
+A character does not know about any events before they enter a location.
+If a character is in a certain location, the character knows about the location of all objects within that location. The character also knows if other agents enter or leave that location. They also know if other agents move objects around.
+If a character leaves that location, they no longer know about anything that occurs within that location, or changes in locations of objects.
+However, note that a character can re-enter a location.
+
+Here are a few examples.
+
+Story:
+1 Lily entered the dining room.
+2 William entered the dining room.
+3 The underpants is in the box.
+4 The box is in the dining room.
+5 William exited the dining room.
+6 Abigail entered the cellar.
+7 William dislikes the eggplant
+8 Abigail exited the cellar.
+9 William entered the dining room.
+10 Lily moved the underpants to the suitcase.
+11 The suitcase is in the dining room.
+What events does William know about?
+
+William knows about the following events:
+2 William entered the dining room.
+3 The underpants is in the box.
+4 The box is in the dining room.
+5 William exited the dining room.
+9 William entered the dining room.
+10 Lily moved the underpants to the suitcase.
+11 The suitcase is in the dining room.
+
+Story:
+1 Jackson dislikes the pajamas
+2 Jackson entered the dining_room.
+3 Logan entered the dining_room.
+4 The sweet_potato is in the bathtub.
+5 The bathtub is in the dining room.
+6 Jackson moved the sweet_potato to the suitcase.
+7 The suitcase is in the dining room.
+8 Emma entered the dining_room.
+9 Emma loves the shirt
+10 Logan exited the dining_room.
+11 Jackson exited the dining_room.
+12 Logan entered the TV_room.
+What events does Logan know about?
+
+Logan knows about the following events:
+3 Logan entered the dining_room.
+4 The sweet_potato is in the bathtub.
+5 The bathtub is in the dining room.
+6 Jackson moved the sweet_potato to the suitcase.
+7 The suitcase is in the dining room.
+8 Emma entered the dining_room.
+9 Emma loves the shirt
+10 Logan exited the dining_room.
+12 Logan entered the TV_room.
+
+Story:
+1 Jackson dislikes the pajamas
+2 Jackson entered the dining_room.
+3 Logan entered the dining_room.
+4 The sweet_potato is in the bathtub.
+5 The bathtub is in the dining room.
+6 Jackson moved the sweet_potato to the suitcase.
+7 The suitcase is in the dining room.
+8 Emma entered the dining_room.
+9 Emma loves the shirt
+10 Logan exited the dining_room.
+11 Jackson exited the dining_room.
+12 Logan entered the TV_room.
+What events does Jackson know about?
+
+Jackson knows about the following events:
+1 Jackson dislikes the pajamas
+2 Jackson entered the dining_room.
+3 Logan entered the dining_room.
+4 The sweet_potato is in the bathtub.
+5 The bathtub is in the dining room.
+6 Jackson moved the sweet_potato to the suitcase.
+7 The suitcase is in the dining room.
+8 Emma entered the dining_room.
+9 Emma loves the shirt
+10 Logan exited the dining_room.
+11 Jackson exited the dining_room.
+
+Story:
+{story}
+What events does {character} know about?
+"""
+
+########## PT + Sim in one prompt ############
+"""
+I will give you a short story, and a question that asks about the story. Your task is in two steps.
+
+Step 1: Imagine you are {name}, and consider this story that has an unexpected event.
+{story}
+If the last sentence of the story says {name} notices, sees or realizes the unexpected event in this story, simply output the original story with nothing changed.
+However, if the sentence says you are not aware of the changes in this story, output only the events you know, i.e., the sentences before the unexpected event happens.
+Output either the original story or the edited story, nothing else.
+
+Format your answer for step 1 as follows:
+Sees/Notices/Realizes: (Yes/No)
+Story:
+
+2. You will then imagine you are the main character, {name}, then answer the question given to you based on the story you have rewritten. Ignore the previous story -- your rewritten story is now the new story. Do not output a blank answer or say you do not have enough information -- you must choose either choice a) or choice b). Answer as  '<option>) <answer>'.
+
+Here is the story and question.
+
+Story: {story}
+Question: {question}
+
+Format your answer as follows:
+Step 1:
+Step 2: <option>) <answer>
+"""

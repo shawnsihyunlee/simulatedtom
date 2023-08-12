@@ -1,0 +1,1209 @@
+"3 Abigail entered the back_yard.
+5 The beans is in the envelope.
+6 The envelope is in the back_yard.
+7 Abigail exited the back_yard.
+11 Abigail entered the garden.","You are Abigail.
+Based on the above information, answer the following question:
+Where will Abigail look for the beans?
+Choose from the following:
+envelope, suitcase
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",envelope,first_order_1_tom
+"2 Mila entered the kitchen.
+3 The pineapple is in the treasure_chest.
+4 The treasure_chest is in the kitchen.
+5 Mila exited the kitchen.
+6 Mila loves the apple.
+11 Mila entered the den.","You are Mila.
+Based on the above information, answer the following question:
+Where does Mila think that Noah searches for the pineapple?
+Choose from the following:
+crate, treasure_chest
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",treasure_chest,second_order_1_tom
+"1 Mason entered the porch.
+2 Isla entered the porch.
+3 The tomato is in the drawer.
+4 The drawer is in the porch.
+5 Isla exited the porch.
+6 Isla entered the hall.
+7 Mason moved the tomato to the container.
+8 The container is in the porch.","You are Mason.
+Based on the above information, answer the following question:
+Where does Mason think that Isla searches for the tomato?
+Choose from the following:
+drawer, container
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",drawer,second_order_0_tom
+"3 Emily entered the crawlspace.
+4 The t-shirt is in the cupboard.
+5 The cupboard is in the crawlspace.
+6 Abigail exited the crawlspace.
+7 Emily moved the t-shirt to the basket.
+8 The basket is in the crawlspace.
+10 Emily exited the crawlspace.","You are Emily.
+Based on the above information, answer the following question:
+Where does Emily think that Abigail searches for the t-shirt?
+Choose from the following:
+basket, cupboard
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",cupboard,second_order_1_tom
+"1 Benjamin is in the TV_room.
+4 Nathan is in the TV_room.
+5 The lemon is in the pantry.
+6 The pantry is in the TV_room.
+7 Benjamin exited the TV_room.","You are Benjamin.
+Based on the above information, answer the following question:
+Where does Benjamin think that Nathan searches for the lemon?
+Choose from the following:
+pantry, bucket
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",pantry,second_order_0_tom
+"2 Sophia entered the sunroom.
+3 The corn is in the bathtub.
+4 The bathtub is in the sunroom.
+5 Sophia exited the sunroom.
+6 Sophia entered the attic.","You are Sophia.
+Based on the above information, answer the following question:
+Where does Sophia think that Ava searches for the corn?
+Choose from the following:
+treasure_chest, bathtub
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",bathtub,second_order_1_tom
+"1 Ava entered the living_room.
+2 Jackson entered the living_room.
+4 The belt is in the basket.
+5 The basket is in the living_room.
+6 Jackson exited the living_room.
+7 Ava moved the belt to the pantry.
+8 The pantry is in the living_room.
+9 Ava exited the living_room.","You are Ava.
+Based on the above information, answer the following question:
+Where does Ava think that Jackson searches for the belt?
+Choose from the following:
+pantry, basket
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",basket,second_order_0_tom
+"3 Noah entered the staircase.
+4 The slacks is in the basket.
+5 The basket is in the staircase.
+6 Noah exited the staircase.","You are Noah.
+Based on the above information, answer the following question:
+Where will Noah look for the slacks?
+Choose from the following:
+treasure_chest, basket
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",basket,first_order_1_tom
+"1 Avery entered the workshop.
+2 Emma entered the workshop.
+3 The asparagus is in the container.
+4 The container is in the workshop.
+5 Avery exited the workshop.","You are Avery.
+Based on the above information, answer the following question:
+Where does Avery think that Emma searches for the asparagus?
+Choose from the following:
+container, bathtub
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",container,second_order_0_tom
+"4 Owen entered the living_room.
+5 The slacks is in the container.
+6 The container is in the living_room.
+7 William loves the scarf.
+8 Owen exited the living_room.","You are Owen.
+Based on the above information, answer the following question:
+Where will Owen look for the slacks?
+Choose from the following:
+container, cupboard
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",container,first_order_1_tom
+"3 Benjamin is in the closet.
+4 The beans is in the suitcase.
+5 The suitcase is in the closet.
+6 Benjamin exited the closet.
+10 Benjamin entered the closet.","You are Benjamin.
+Based on the above information, answer the following question:
+Where does Benjamin think that Mila searches for the beans?
+Choose from the following:
+suitcase, bathtub
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",suitcase,second_order_1_tom
+"1 Hunter entered the porch.
+2 Jacob entered the porch.
+3 The onion is in the drawer.
+4 The drawer is in the porch.
+5 Jacob exited the porch.
+6 Hunter moved the onion to the bathtub.
+7 The bathtub is in the porch.","You are Hunter.
+Based on the above information, answer the following question:
+Where does Hunter think that Jacob searches for the onion?
+Choose from the following:
+drawer, bathtub
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",drawer,second_order_0_tom
+"1 Ethan entered the closet.
+3 Chloe entered the closet.
+4 The lemon is in the container.
+5 The container is in the closet.
+6 Ethan exited the closet.","You are Ethan.
+Based on the above information, answer the following question:
+Where does Ethan think that Chloe searches for the lemon?
+Choose from the following:
+container, pantry
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",container,second_order_0_tom
+"1 Jack entered the staircase.
+2 Benjamin entered the staircase.
+3 The jacket is in the cupboard.
+4 The cupboard is in the staircase.
+5 Jack exited the staircase.","You are Jack.
+Based on the above information, answer the following question:
+Where does Jack think that Benjamin searches for the jacket?
+Choose from the following:
+cupboard, crate
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",cupboard,second_order_0_tom
+"1 Aria entered the crawlspace.
+3 Mason entered the crawlspace.
+4 The banana is in the cupboard.
+5 The cupboard is in the crawlspace.
+6 Mason exited the crawlspace.
+8 Aria moved the banana to the bucket.
+9 The bucket is in the crawlspace.","You are Aria.
+Based on the above information, answer the following question:
+Where does Aria think that Mason searches for the banana?
+Choose from the following:
+bucket, cupboard
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",cupboard,second_order_0_tom
+"1 Ella entered the master_bedroom.
+2 Ava entered the master_bedroom.
+3 The onion is in the envelope.
+4 The envelope is in the master_bedroom.
+5 Ella exited the master_bedroom.
+9 Ella entered the hallway.","You are Ella.
+Based on the above information, answer the following question:
+Where will Ella look for the onion?
+Choose from the following:
+envelope, box
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",envelope,first_order_0_tom
+"1 Logan likes the lemon.
+3 Logan entered the crawlspace.
+4 Abigail entered the crawlspace.
+5 The broccoli is in the drawer.
+6 The drawer is in the crawlspace.
+7 Lucas exited the crawlspace.
+8 Logan moved the broccoli to the bucket.
+9 The bucket is in the crawlspace.
+10 Logan exited the crawlspace.","You are Logan.
+Based on the above information, answer the following question:
+Where does Logan think that Lucas searches for the broccoli?
+Choose from the following:
+drawer, bucket
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",drawer,second_order_1_tom
+"1 Amelia entered the porch.
+2 Evelyn entered the porch.
+3 Isabella entered the porch.
+4 The cherry is in the drawer.
+5 The drawer is in the porch.
+6 Evelyn exited the porch.
+7 Amelia moved the cherry to the bucket.
+8 The bucket is in the porch.
+9 Isabella exited the porch.
+10 Amelia exited the porch.","You are Amelia.
+Based on the above information, answer the following question:
+Where does Amelia think that Evelyn searches for the cherry?
+Choose from the following:
+bucket, drawer
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",drawer,second_order_0_tom
+"3 Charlotte entered the staircase.
+4 The cabbage is in the crate.
+5 The crate is in the staircase.
+6 Charlotte exited the staircase.","You are Charlotte.
+Based on the above information, answer the following question:
+Where will Charlotte look for the cabbage?
+Choose from the following:
+suitcase, crate
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",crate,first_order_1_tom
+"2 Ethan likes the underclothes.
+3 Ethan entered the crawlspace.
+4 The spinach is in the box.
+5 The box is in the crawlspace.
+6 Ethan exited the crawlspace.
+7 Ethan entered the sunroom.
+10 Ethan hates the persimmon.","You are Ethan.
+Based on the above information, answer the following question:
+Where will Ethan look for the spinach?
+Choose from the following:
+box, envelope
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",box,first_order_1_tom
+"2 Isla entered the staircase.
+3 The persimmon is in the bathtub.
+4 The bathtub is in the staircase.
+6 Isla exited the staircase.
+7 Isla entered the garage.","You are Isla.
+Based on the above information, answer the following question:
+Where will Isla look for the persimmon?
+Choose from the following:
+bathtub, box
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",bathtub,first_order_1_tom
+"1 Amelia entered the study.
+2 Ava entered the study.
+4 Ava dislikes the scarf.
+5 The cherry is in the treasure_chest.
+6 The treasure_chest is in the study.
+7 Ava exited the study.
+8 Amelia moved the cherry to the bottle.
+9 The bottle is in the study.","You are Amelia.
+Based on the above information, answer the following question:
+Where does Amelia think that Ava searches for the cherry?
+Choose from the following:
+bottle, treasure_chest
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",treasure_chest,second_order_0_tom
+"1 Isla entered the den.
+2 Avery entered the den.
+3 The jeans is in the treasure_chest.
+4 The treasure_chest is in the den.
+5 Isla exited the den.
+8 Isla entered the sunroom.","You are Isla.
+Based on the above information, answer the following question:
+Where will Isla look for the jeans?
+Choose from the following:
+bathtub, treasure_chest
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",treasure_chest,first_order_0_tom
+"1 Nathan entered the playroom.
+2 Isla entered the playroom.
+3 Nathan hates the melon.
+4 The green_pepper is in the box.
+5 The box is in the playroom.
+6 Nathan exited the playroom.
+7 Nathan hates the sweater.","You are Nathan.
+Based on the above information, answer the following question:
+Where will Nathan look for the green_pepper?
+Choose from the following:
+container, box
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",box,first_order_0_tom
+"1 Evelyn entered the cellar.
+2 Owen entered the cellar.
+3 The belt is in the bathtub.
+4 The bathtub is in the cellar.
+6 Evelyn exited the cellar.","You are Evelyn.
+Based on the above information, answer the following question:
+Where will Evelyn look for the belt?
+Choose from the following:
+bathtub, envelope
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",bathtub,first_order_0_tom
+"3 Aiden entered the pantry.
+4 The sweatshirt is in the box.
+5 The box is in the pantry.
+6 Aiden exited the pantry.","You are Aiden.
+Based on the above information, answer the following question:
+Where will Aiden look for the sweatshirt?
+Choose from the following:
+box, pantry
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",box,first_order_1_tom
+"2 Liam entered the master_bedroom.
+3 The dress is in the suitcase.
+4 The suitcase is in the master_bedroom.
+5 Ava entered the master_bedroom.
+6 Ava exited the master_bedroom.
+7 Liam exited the master_bedroom.
+11 Liam entered the closet.","You are Liam.
+Based on the above information, answer the following question:
+Where will Liam look for the dress?
+Choose from the following:
+box, suitcase
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",suitcase,first_order_1_tom
+"4 Mila loves the skirt.
+5 Mila entered the back_yard.
+6 Ella entered the back_yard.
+7 The trousers is in the bucket.
+8 The bucket is in the back_yard.
+9 Mila exited the back_yard.
+10 Mila entered the basement.","You are Mila.
+Based on the above information, answer the following question:
+Where will Mila look for the trousers?
+Choose from the following:
+pantry, bucket
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",bucket,first_order_0_tom
+"2 Aria entered the workshop.
+3 The potato is in the basket.
+4 The basket is in the workshop.
+5 Mia loves the raincoat.
+6 Mia exited the workshop.
+8 Aria moved the potato to the bathtub.
+9 The bathtub is in the workshop.
+10 Aria exited the workshop.","You are Aria.
+Based on the above information, answer the following question:
+Where does Aria think that Mia searches for the potato?
+Choose from the following:
+basket, bathtub
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",basket,second_order_1_tom
+"2 Jackson entered the study.
+4 The lettuce is in the container.
+5 The container is in the study.
+6 Jackson exited the study.
+10 Jackson entered the pantry.","You are Jackson.
+Based on the above information, answer the following question:
+Where will Jackson look for the lettuce?
+Choose from the following:
+container, crate
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",container,first_order_1_tom
+"2 Owen entered the hallway.
+4 Lily entered the hallway.
+5 The banana is in the cupboard.
+6 The cupboard is in the hallway.
+7 Owen exited the hallway.
+11 Owen entered the cellar.","You are Owen.
+Based on the above information, answer the following question:
+Where will Owen look for the banana?
+Choose from the following:
+treasure_chest, cupboard
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",cupboard,first_order_0_tom
+"3 Noah entered the study.
+5 The cabbage is in the bottle.
+6 The bottle is in the study.
+7 Noah exited the study.","You are Noah.
+Based on the above information, answer the following question:
+Where will Noah look for the cabbage?
+Choose from the following:
+treasure_chest, bottle
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",bottle,first_order_1_tom
+"1 Abigail entered the TV_room.
+2 Ava entered the TV_room.
+3 The shirt is in the box.
+4 The box is in the TV_room.
+5 Ava exited the TV_room.
+6 Abigail moved the shirt to the pantry.
+7 The pantry is in the TV_room.
+9 Abigail exited the TV_room.","You are Abigail.
+Based on the above information, answer the following question:
+Where does Abigail think that Ava searches for the shirt?
+Choose from the following:
+pantry, box
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",box,second_order_0_tom
+"1 Jackson entered the office.
+2 Chloe entered the office.
+3 The slacks is in the basket.
+4 The basket is in the office.
+5 Jackson exited the office.
+10 Jackson entered the garage.
+11 Jackson likes the peas.","You are Jackson.
+Based on the above information, answer the following question:
+Where will Jackson look for the slacks?
+Choose from the following:
+basket, crate
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",basket,first_order_0_tom
+"4 Jack entered the staircase.
+5 Lucas entered the staircase.
+6 The beans is in the cupboard.
+7 The cupboard is in the staircase.
+8 Jack exited the staircase.
+12 Jack entered the garage.","You are Jack.
+Based on the above information, answer the following question:
+Where will Jack look for the beans?
+Choose from the following:
+cupboard, bottle
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",cupboard,first_order_0_tom
+"2 Jacob entered the porch.
+3 The onion is in the drawer.
+4 The drawer is in the porch.
+5 Jacob exited the porch.","You are Jacob.
+Based on the above information, answer the following question:
+Where does Jacob think that Hunter searches for the onion?
+Choose from the following:
+bathtub, drawer
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",drawer,second_order_1_tom
+"1 Abigail loves the underclothes.
+2 Abigail entered the cellar.
+3 James entered the cellar.
+4 The celery is in the box.
+5 The box is in the cellar.
+6 Abigail exited the cellar.","You are Abigail.
+Based on the above information, answer the following question:
+Where does Abigail think that James searches for the celery?
+Choose from the following:
+box, pantry
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",box,second_order_0_tom
+"2 Owen entered the staircase.
+3 The peach is in the box.
+4 The box is in the staircase.
+5 Noah dislikes the shirt.
+6 Noah loves the turnip.
+7 Owen exited the staircase.
+10 Owen entered the office.","You are Owen.
+Based on the above information, answer the following question:
+Where will Owen look for the peach?
+Choose from the following:
+drawer, box
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",box,first_order_1_tom
+"2 Evelyn is in the master_bedroom.
+3 Lily hates the tomato.
+4 The strawberry is in the suitcase.
+5 The suitcase is in the master_bedroom.
+6 Lily hates the tangerine.
+7 Evelyn exited the master_bedroom.","You are Evelyn.
+Based on the above information, answer the following question:
+Where does Evelyn think that Lily searches for the strawberry?
+Choose from the following:
+suitcase, bottle
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",suitcase,second_order_1_tom
+"1 Lucas entered the back_yard.
+2 Lucas dislikes the green_pepper.
+3 Avery entered the back_yard.
+4 The tie is in the bucket.
+5 The bucket is in the back_yard.
+7 Lucas exited the back_yard.","You are Lucas.
+Based on the above information, answer the following question:
+Where will Lucas look for the tie?
+Choose from the following:
+suitcase, bucket
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",bucket,first_order_0_tom
+"1 Aria entered the workshop.
+2 Charlotte entered the workshop.
+3 Hannah entered the workshop.
+4 Aria loves the underclothes.
+5 The tangerine is in the container.
+6 The container is in the workshop.
+7 Aria exited the workshop.
+8 Aria dislikes the beans.
+10 Aria entered the crawlspace.","You are Aria.
+Based on the above information, answer the following question:
+Where will Aria look for the tangerine?
+Choose from the following:
+container, bathtub
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",container,first_order_0_tom
+"1 Ava entered the sunroom.
+2 Jack entered the sunroom.
+3 The sweatshirt is in the bathtub.
+4 The bathtub is in the sunroom.
+5 Ava exited the sunroom.","You are Ava.
+Based on the above information, answer the following question:
+Where will Ava look for the sweatshirt?
+Choose from the following:
+bathtub, basket
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",bathtub,first_order_0_tom
+"2 Logan entered the TV_room.
+3 The lemon is in the envelope.
+4 The envelope is in the TV_room.
+5 Logan exited the TV_room.","You are Logan.
+Based on the above information, answer the following question:
+Where will Logan look for the lemon?
+Choose from the following:
+crate, envelope
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",envelope,first_order_1_tom
+"1 Alexander entered the lounge.
+2 Ethan is in the lounge.
+3 The watermelon is in the treasure_chest.
+4 The treasure_chest is in the lounge.
+5 Alexander exited the lounge.
+9 Alexander entered the lounge.","You are Alexander.
+Based on the above information, answer the following question:
+Where does Alexander think that Ethan searches for the watermelon?
+Choose from the following:
+container, treasure_chest
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",treasure_chest,second_order_0_tom
+"2 Carter entered the hall.
+3 The tomato is in the pantry.
+4 The pantry is in the hall.
+5 Carter exited the hall.
+6 Carter entered the patio.","You are Carter.
+Based on the above information, answer the following question:
+Where will Carter look for the tomato?
+Choose from the following:
+drawer, pantry
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",pantry,first_order_1_tom
+"3 Liam entered the attic.
+4 The cabbage is in the crate.
+5 The crate is in the attic.
+6 Liam exited the attic.
+11 Liam entered the workshop.","You are Liam.
+Based on the above information, answer the following question:
+Where will Liam look for the cabbage?
+Choose from the following:
+envelope, crate
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",crate,first_order_1_tom
+"1 Isabella entered the bedroom.
+2 Jack entered the bedroom.
+3 The persimmon is in the suitcase.
+4 The suitcase is in the bedroom.
+5 Isabella exited the bedroom.
+9 Isabella entered the office.","You are Isabella.
+Based on the above information, answer the following question:
+Where will Isabella look for the persimmon?
+Choose from the following:
+crate, suitcase
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",suitcase,first_order_0_tom
+"2 Charlotte entered the laundry.
+3 The coat is in the envelope.
+4 The envelope is in the laundry.
+6 Charlotte dislikes the eggplant.
+7 Oliver exited the laundry.
+8 Charlotte moved the coat to the crate.
+9 The crate is in the laundry.","You are Charlotte.
+Based on the above information, answer the following question:
+Where does Charlotte think that Oliver searches for the coat?
+Choose from the following:
+crate, envelope
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",envelope,second_order_1_tom
+"3 Lucas entered the cellar.
+4 Benjamin entered the porch.
+5 The boots is in the cupboard.
+6 The cupboard is in the cellar.
+7 Lucas exited the cellar.
+10 Lucas entered the porch.","You are Lucas.
+Based on the above information, answer the following question:
+Where will Lucas look for the boots?
+Choose from the following:
+pantry, cupboard
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",cupboard,first_order_1_tom
+"1 Avery loves the orange.
+3 Avery entered the dining_room.
+4 The celery is in the suitcase.
+5 The suitcase is in the dining_room.
+6 Nathan exited the dining_room.
+7 Avery moved the celery to the box.
+8 The box is in the dining_room.","You are Avery.
+Based on the above information, answer the following question:
+Where does Avery think that Nathan searches for the celery?
+Choose from the following:
+suitcase, box
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",suitcase,second_order_1_tom
+"2 Aria entered the crawlspace.
+3 Hannah entered the crawlspace.
+5 The onion is in the envelope.
+6 The envelope is in the crawlspace.
+7 Aria exited the crawlspace.
+10 Aria dislikes the tie.","You are Aria.
+Based on the above information, answer the following question:
+Where will Aria look for the onion?
+Choose from the following:
+envelope, suitcase
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",envelope,first_order_0_tom
+"1 Noah entered the garage.
+2 Ethan entered the garage.
+3 Aria entered the garage.
+4 The sweet_potato is in the suitcase.
+5 The suitcase is in the garage.
+6 Noah exited the garage.
+10 Noah entered the patio.","You are Noah.
+Based on the above information, answer the following question:
+Where does Noah think that Aria searches for the sweet_potato?
+Choose from the following:
+suitcase, box
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",suitcase,second_order_0_tom
+"2 Logan entered the sunroom.
+3 Jayden entered the sunroom.
+4 The peach is in the box.
+5 The box is in the sunroom.
+6 Logan exited the sunroom.","You are Logan.
+Based on the above information, answer the following question:
+Where does Logan think that Jayden searches for the peach?
+Choose from the following:
+box, bucket
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",box,second_order_0_tom
+"3 Jackson entered the laundry.
+4 The jacket is in the bottle.
+5 The bottle is in the laundry.
+6 Liam exited the laundry.
+7 Jackson moved the jacket to the envelope.
+8 The envelope is in the laundry.","You are Jackson.
+Based on the above information, answer the following question:
+Where does Jackson think that Liam searches for the jacket?
+Choose from the following:
+envelope, bottle
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",bottle,second_order_1_tom
+"2 Emma entered the front_yard.
+3 Nathan entered the front_yard.
+4 The beans is in the crate.
+5 The crate is in the front_yard.
+6 Nathan hates the shirt.
+7 Emma exited the front_yard.","You are Emma.
+Based on the above information, answer the following question:
+Where will Emma look for the beans?
+Choose from the following:
+crate, cupboard
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",crate,first_order_0_tom
+"2 Nathan dislikes the scarf.
+3 Nathan entered the sunroom.
+4 Hunter hates the gloves.
+5 The suit is in the bucket.
+6 The bucket is in the sunroom.
+7 Ella entered the sunroom.
+8 Nathan exited the sunroom.","You are Nathan.
+Based on the above information, answer the following question:
+Where will Nathan look for the suit?
+Choose from the following:
+pantry, bucket
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",bucket,first_order_1_tom
+"2 Jack entered the workshop.
+3 The hat is in the drawer.
+4 The drawer is in the workshop.
+5 Chloe exited the workshop.
+10 Jack moved the hat to the cupboard.
+11 The cupboard is in the workshop.","You are Jack.
+Based on the above information, answer the following question:
+Where does Jack think that Chloe searches for the hat?
+Choose from the following:
+cupboard, drawer
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",drawer,second_order_1_tom
+"3 Aria entered the crawlspace.
+4 Aria likes the lime.
+6 The shoes is in the box.
+7 The box is in the crawlspace.
+8 Aria exited the crawlspace.
+12 Aria entered the TV_room.","You are Aria.
+Based on the above information, answer the following question:
+Where will Aria look for the shoes?
+Choose from the following:
+bucket, box
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",box,first_order_1_tom
+"4 Oliver entered the workshop.
+5 The pineapple is in the cupboard.
+6 The cupboard is in the workshop.
+7 Oliver exited the workshop.","You are Oliver.
+Based on the above information, answer the following question:
+Where will Oliver look for the pineapple?
+Choose from the following:
+cupboard, treasure_chest
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",cupboard,first_order_1_tom
+"4 Avery entered the living_room.
+5 The shirt is in the box.
+6 The box is in the living_room.
+7 Avery exited the living_room.","You are Avery.
+Based on the above information, answer the following question:
+Where will Avery look for the shirt?
+Choose from the following:
+crate, box
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",box,first_order_1_tom
+"3 Charlotte entered the attic.
+4 The cap is in the bucket.
+5 The bucket is in the attic.
+6 Charlotte exited the attic.
+7 Charlotte entered the office.","You are Charlotte.
+Based on the above information, answer the following question:
+Where will Charlotte look for the cap?
+Choose from the following:
+bucket, basket
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",bucket,first_order_1_tom
+"2 Jackson entered the office.
+3 Mason exited the office.
+5 Jacob entered the office.
+6 The onion is in the container.
+7 The container is in the office.
+8 Jackson exited the office.","You are Jackson.
+Based on the above information, answer the following question:
+Where will Jackson look for the onion?
+Choose from the following:
+bottle, container
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",container,first_order_0_tom
+"4 Jayden entered the study.
+5 William entered the study.
+6 The carrot is in the bottle.
+7 The bottle is in the study.
+8 William exited the study.
+9 Ethan exited the study.
+10 Jayden moved the carrot to the crate.
+11 The crate is in the study.
+12 Jayden exited the study.","You are Jayden.
+Based on the above information, answer the following question:
+Where does Jayden think that William searches for the carrot?
+Choose from the following:
+bottle, crate
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",bottle,second_order_0_tom
+"1 Carter entered the study.
+3 Jackson entered the study.
+5 Jackson hates the jacket.
+6 The shirt is in the box.
+7 The box is in the study.
+8 Carter exited the study.
+13 Carter entered the hall.","You are Carter.
+Based on the above information, answer the following question:
+Where will Carter look for the shirt?
+Choose from the following:
+basket, box
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",box,first_order_0_tom
+"1 Ethan entered the garage.
+2 Jacob entered the garage.
+3 The underpants is in the crate.
+4 The crate is in the garage.
+5 Ethan exited the garage.
+9 Ethan entered the den.","You are Ethan.
+Based on the above information, answer the following question:
+Where does Ethan think that Jacob searches for the underpants?
+Choose from the following:
+crate, envelope
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",crate,second_order_0_tom
+"1 Emma dislikes the spinach.
+2 Emma entered the front_yard.
+3 Olivia entered the front_yard.
+4 The pants is in the bottle.
+5 The bottle is in the front_yard.
+7 Emma exited the front_yard.","You are Emma.
+Based on the above information, answer the following question:
+Where will Emma look for the pants?
+Choose from the following:
+bottle, envelope
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",bottle,first_order_0_tom
+"1 Hunter entered the back_yard.
+2 William entered the back_yard.
+3 The hat is in the crate.
+4 The crate is in the back_yard.
+5 William likes the cap.
+6 Hunter hates the orange.
+7 William exited the back_yard.
+10 Hunter moved the hat to the bottle.
+11 The bottle is in the back_yard.
+12 Hunter exited the back_yard.","You are Hunter.
+Based on the above information, answer the following question:
+Where does Hunter think that William searches for the hat?
+Choose from the following:
+crate, bottle
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",crate,second_order_0_tom
+"1 Ella entered the porch.
+2 Ava entered the porch.
+3 The cucumber is in the basket.
+4 The basket is in the porch.
+5 Noah entered the porch.
+6 Ella likes the cabbage.
+7 Ella exited the porch.
+12 Ella entered the porch.","You are Ella.
+Based on the above information, answer the following question:
+Where does Ella think that Ava searches for the cucumber?
+Choose from the following:
+suitcase, basket
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",basket,second_order_0_tom
+"1 Carter entered the hall.
+2 Carter loves the pumpkin.
+3 Isla entered the hall.
+4 The spinach is in the bathtub.
+5 The bathtub is in the hall.
+6 Isla exited the hall.
+8 Carter moved the spinach to the drawer.
+9 The drawer is in the hall.","You are Carter.
+Based on the above information, answer the following question:
+Where does Carter think that Isla searches for the spinach?
+Choose from the following:
+bathtub, drawer
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",bathtub,second_order_0_tom
+"2 Isabella entered the attic.
+3 The cucumber is in the drawer.
+4 The drawer is in the attic.
+8 Isabella moved the cucumber to the crate.
+9 The crate is in the attic.","You are Isabella.
+Based on the above information, answer the following question:
+Where does Isabella think that Jack searches for the cucumber?
+Choose from the following:
+drawer, crate
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",drawer,second_order_1_tom
+"2 Jacob entered the kitchen.
+3 The shirt is in the cupboard.
+4 The cupboard is in the kitchen.
+5 William exited the kitchen.
+7 Jacob moved the shirt to the suitcase.
+8 The suitcase is in the kitchen.","You are Jacob.
+Based on the above information, answer the following question:
+Where does Jacob think that William searches for the shirt?
+Choose from the following:
+suitcase, cupboard
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",cupboard,second_order_1_tom
+"2 Carter entered the front_yard.
+3 The pants is in the pantry.
+4 The pantry is in the front_yard.
+5 Jacob exited the front_yard.
+6 Carter moved the pants to the box.
+7 The box is in the front_yard.
+8 Carter exited the front_yard.","You are Carter.
+Based on the above information, answer the following question:
+Where does Carter think that Jacob searches for the pants?
+Choose from the following:
+pantry, box
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",pantry,second_order_1_tom
+"1 Alexander entered the kitchen.
+2 Ethan entered the kitchen.
+3 The sweatshirt is in the cupboard.
+4 The cupboard is in the kitchen.
+5 Ethan exited the kitchen.
+7 Alexander moved the sweatshirt to the bottle.
+8 The bottle is in the kitchen.","You are Alexander.
+Based on the above information, answer the following question:
+Where does Alexander think that Ethan searches for the sweatshirt?
+Choose from the following:
+cupboard, bottle
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",cupboard,second_order_0_tom
+"1 Ava entered the kitchen.
+2 Emily entered the kitchen.
+3 The spinach is in the bottle.
+4 The bottle is in the kitchen.
+5 Ava exited the kitchen.
+9 Ava entered the kitchen.","You are Ava.
+Based on the above information, answer the following question:
+Where does Ava think that Emily searches for the spinach?
+Choose from the following:
+pantry, bottle
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",bottle,second_order_0_tom
+"2 Ava entered the TV_room.
+3 The shirt is in the box.
+4 The box is in the TV_room.
+5 Ava exited the TV_room.
+8 Ava hates the tie.
+12 Ava entered the TV_room.","You are Ava.
+Based on the above information, answer the following question:
+Where does Ava think that Abigail searches for the shirt?
+Choose from the following:
+pantry, box
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",box,second_order_1_tom
+"3 Aiden entered the workshop.
+4 The boots is in the suitcase.
+5 The suitcase is in the workshop.
+6 Aiden exited the workshop.
+10 Aiden entered the porch.","You are Aiden.
+Based on the above information, answer the following question:
+Where does Aiden think that Lucas searches for the boots?
+Choose from the following:
+bucket, suitcase
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",suitcase,second_order_1_tom
+"2 Avery entered the bedroom.
+3 Avery loves the pants.
+4 The broccoli is in the container.
+5 The container is in the bedroom.
+6 Olivia exited the bedroom.
+7 Avery moved the broccoli to the crate.
+8 The crate is in the bedroom.
+9 Jayden entered the bedroom.
+10 Avery exited the bedroom.","You are Avery.
+Based on the above information, answer the following question:
+Where does Avery think that Olivia searches for the broccoli?
+Choose from the following:
+container, crate
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",container,second_order_1_tom
+"1 Liam entered the master_bedroom.
+2 Oliver entered the master_bedroom.
+3 The corn is in the drawer.
+4 The drawer is in the master_bedroom.
+6 Oliver likes the scarf.
+7 Liam exited the master_bedroom.
+12 Liam entered the playroom.","You are Liam.
+Based on the above information, answer the following question:
+Where does Liam think that Oliver searches for the corn?
+Choose from the following:
+cupboard, drawer
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",drawer,second_order_0_tom
+"2 Chloe entered the basement.
+4 The coat is in the crate.
+5 The crate is in the basement.
+6 Chloe hates the underclothes.
+7 Chloe exited the basement.
+11 Chloe entered the den.","You are Chloe.
+Based on the above information, answer the following question:
+Where will Chloe look for the coat?
+Choose from the following:
+crate, bucket
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",crate,first_order_1_tom
+"1 Hunter entered the study.
+3 Ella entered the study.
+4 The raincoat is in the envelope.
+5 The envelope is in the study.
+6 Hunter exited the study.
+9 Hunter entered the bathroom.","You are Hunter.
+Based on the above information, answer the following question:
+Where will Hunter look for the raincoat?
+Choose from the following:
+envelope, crate
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",envelope,first_order_0_tom
+"3 Jayden entered the sunroom.
+4 The peach is in the box.
+5 The box is in the sunroom.
+6 Logan exited the sunroom.
+7 Jayden moved the peach to the bucket.
+8 The bucket is in the sunroom.","You are Jayden.
+Based on the above information, answer the following question:
+Where does Jayden think that Logan searches for the peach?
+Choose from the following:
+bucket, box
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",box,second_order_1_tom
+"1 Jayden entered the laundry.
+2 Avery entered the laundry.
+3 The carrot is in the cupboard.
+4 The cupboard is in the laundry.
+5 Avery hates the skirt.
+6 Jayden exited the laundry.","You are Jayden.
+Based on the above information, answer the following question:
+Where will Jayden look for the carrot?
+Choose from the following:
+cupboard, bathtub
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",cupboard,first_order_0_tom
+"2 Benjamin entered the dining_room.
+3 William entered the dining_room.
+4 The belt is in the treasure_chest.
+5 The treasure_chest is in the dining_room.
+6 Benjamin exited the dining_room.
+10 Benjamin hates the grapefruit.
+11 Benjamin entered the dining_room.","You are Benjamin.
+Based on the above information, answer the following question:
+Where does Benjamin think that William searches for the belt?
+Choose from the following:
+bathtub, treasure_chest
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",treasure_chest,second_order_0_tom
+"1 Evelyn entered the cellar.
+2 Owen entered the cellar.
+3 The belt is in the bathtub.
+4 The bathtub is in the cellar.
+6 Evelyn exited the cellar.","You are Evelyn.
+Based on the above information, answer the following question:
+Where does Evelyn think that Owen searches for the belt?
+Choose from the following:
+bathtub, envelope
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",bathtub,second_order_0_tom
+"3 Ethan entered the lounge.
+4 Lily entered the lounge.
+5 Ethan dislikes the celery.
+6 The plum is in the treasure_chest.
+7 The treasure_chest is in the lounge.
+8 Ethan exited the lounge.","You are Ethan.
+Based on the above information, answer the following question:
+Where will Ethan look for the plum?
+Choose from the following:
+treasure_chest, drawer
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",treasure_chest,first_order_0_tom
+"2 Emma entered the hallway.
+3 Ella entered the hallway.
+4 The banana is in the bathtub.
+5 The bathtub is in the hallway.
+6 Emma exited the hallway.
+10 Emma entered the hallway.","You are Emma.
+Based on the above information, answer the following question:
+Where does Emma think that Ella searches for the banana?
+Choose from the following:
+suitcase, bathtub
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",bathtub,second_order_0_tom
+"3 Aiden loves the shirt.
+5 Aiden entered the TV_room.
+6 The corn is in the bucket.
+7 The bucket is in the TV_room.
+8 Aiden exited the TV_room.","You are Aiden.
+Based on the above information, answer the following question:
+Where will Aiden look for the corn?
+Choose from the following:
+bucket, bathtub
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",bucket,first_order_1_tom
+"1 Chloe entered the workshop.
+2 Benjamin entered the workshop.
+3 The eggplant is in the box.
+4 The box is in the workshop.
+5 Chloe exited the workshop.
+9 Chloe entered the workshop.","You are Chloe.
+Based on the above information, answer the following question:
+Where does Chloe think that Benjamin searches for the eggplant?
+Choose from the following:
+box, crate
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",box,second_order_0_tom
+"2 Logan entered the closet.
+4 The slacks is in the box.
+5 The box is in the closet.
+6 Logan exited the closet.","You are Logan.
+Based on the above information, answer the following question:
+Where does Logan think that Jackson searches for the slacks?
+Choose from the following:
+box, drawer
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",box,second_order_1_tom
+"2 Mia entered the attic.
+3 The celery is in the bathtub.
+4 The bathtub is in the attic.
+5 Mia exited the attic.
+6 Mia loves the banana.","You are Mia.
+Based on the above information, answer the following question:
+Where will Mia look for the celery?
+Choose from the following:
+bathtub, bucket
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",bathtub,first_order_1_tom
+"2 Carter entered the basement.
+3 Sophia entered the basement.
+4 The pear is in the bottle.
+5 The bottle is in the basement.
+6 Carter exited the basement.","You are Carter.
+Based on the above information, answer the following question:
+Where will Carter look for the pear?
+Choose from the following:
+pantry, bottle
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",bottle,first_order_1_tom
+"2 Jackson entered the dining_room.
+3 The cabbage is in the container.
+4 The container is in the dining_room.
+5 Jackson exited the dining_room.
+9 Jackson entered the workshop.","You are Jackson.
+Based on the above information, answer the following question:
+Where will Jackson look for the cabbage?
+Choose from the following:
+box, container
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",container,first_order_1_tom
+"3 James entered the study.
+4 Jackson entered the study.
+5 The banana is in the drawer.
+6 The drawer is in the study.
+7 James exited the study.
+11 James entered the kitchen.","You are James.
+Based on the above information, answer the following question:
+Where will James look for the banana?
+Choose from the following:
+bathtub, drawer
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",drawer,first_order_0_tom
+"3 Hannah entered the TV_room.
+5 The broccoli is in the crate.
+6 The crate is in the TV_room.
+7 Hannah exited the TV_room.
+11 Hannah entered the garden.","You are Hannah.
+Based on the above information, answer the following question:
+Where will Hannah look for the broccoli?
+Choose from the following:
+crate, pantry
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",crate,first_order_1_tom
+"3 Chloe entered the bathroom.
+4 The pants is in the crate.
+5 The crate is in the bathroom.
+6 Chloe exited the bathroom.
+12 Chloe likes the lemon.
+13 Chloe entered the dining_room.","You are Chloe.
+Based on the above information, answer the following question:
+Where will Chloe look for the pants?
+Choose from the following:
+drawer, crate
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",crate,first_order_1_tom
+"2 Elizabeth entered the basement.
+4 The tie is in the container.
+5 The container is in the basement.
+6 Elizabeth exited the basement.","You are Elizabeth.
+Based on the above information, answer the following question:
+Where will Elizabeth look for the tie?
+Choose from the following:
+container, drawer
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",container,first_order_1_tom
+"1 Oliver entered the basement.
+2 Hannah entered the basement.
+3 The sweet_potato is in the crate.
+4 The crate is in the basement.
+7 Hannah exited the basement.
+8 Oliver moved the sweet_potato to the suitcase.
+9 The suitcase is in the basement.
+10 Oliver exited the basement.","You are Oliver.
+Based on the above information, answer the following question:
+Where does Oliver think that Hannah searches for the sweet_potato?
+Choose from the following:
+suitcase, crate
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",crate,second_order_0_tom
+"2 Mila entered the front_yard.
+3 Aria entered the front_yard.
+4 The onion is in the suitcase.
+5 The suitcase is in the front_yard.
+7 Mila exited the front_yard.","You are Mila.
+Based on the above information, answer the following question:
+Where will Mila look for the onion?
+Choose from the following:
+suitcase, drawer
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",suitcase,first_order_0_tom
+"1 Hannah entered the living_room.
+2 Ella entered the living_room.
+3 The pear is in the drawer.
+4 The drawer is in the living_room.
+5 Hannah exited the living_room.
+9 Hannah entered the sunroom.","You are Hannah.
+Based on the above information, answer the following question:
+Where does Hannah think that Ella searches for the pear?
+Choose from the following:
+bottle, drawer
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",drawer,second_order_0_tom
+"2 Evelyn entered the front_yard.
+4 The slacks is in the bathtub.
+5 The bathtub is in the front_yard.
+6 Evelyn hates the peach.
+7 Lucas likes the slacks.
+8 Evelyn exited the front_yard.","You are Evelyn.
+Based on the above information, answer the following question:
+Where does Evelyn think that Lucas searches for the slacks?
+Choose from the following:
+bathtub, box
+Keep your answer concise, one sentence is enough. You must choose one of the above choices.
+",bathtub,second_order_1_tom

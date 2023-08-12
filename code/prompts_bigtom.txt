@@ -1,0 +1,101 @@
+------------- Prompts for GPT -------------
+
+######## PT ########
+"""
+Imagine you are {name}, and consider this story that has an unexpected event.
+{story}
+If the last sentence of the story says {name} notices, sees or realizes the unexpected event in this story, simply output the original story with nothing changed.
+However, if the sentence says you are not aware of the changes in this story, output only the events you know, i.e., the sentences before the unexpected event happens.
+Output either the original story or the edited story, nothing else.
+
+Format your answer as follows:
+Sees/Notices/Realizes: (Yes/No)
+Story:
+"""
+######## SIMULATION ########
+"""
+{perspective}
+You are {name}.
+Based on the above information, answer the following question:
+{question}
+Answer the questions based on the context. Keep your answer concise, few words are enough, maximum one sentence. Answer as 'Answer:<option>)<answer>'.
+"""
+
+
+------------- Prompts for Llama2 -------------
+
+
+######## PT ########
+"""
+Consider this story with an unexpected event.
+
+{story}
+
+Does the story say that {name} notices/sees/realizes the unexpected event?
+
+If so, simply output the original story with nothing changed. 
+However, if {name} is not aware of the changes in this story, output only the events that {name} knows, i.e., the events before the unexpected event happens.
+"""
+######## SIMULATION ########
+"""
+Answer the questions based on the context. Keep your answer concise, few words are enough, maximum one sentence. Answer as 'Answer:<option>)<answer>'.
+
+{perspective}
+
+You are {name}.
+{question}
+Choose the most straightforward answer.
+"""
+
+
+------------------- Ablations -----------------------
+
+########## FS Perspective taking ############
+"""
+I will give you an excerpt. Your task is three steps:
+1. There is a sentence that describes how the situation unexpectedly changed. Identify this sentence.
+2. Identify if the main character comes to know about, or notices, this change at the end.
+3. If the main character does not know about this change, edit the excerpt and output the part of the excerpt BEFORE the sentence that describes the change. If the main character does know about the change, do not edit the excerpt, and output the original story.
+
+Here are some examples.
+
+Story:
+Olumide, a skilled woodcarver in a Nigerian village, is preparing to carve a beautiful sculpture for the village chief. Olumide wants to use a sharp chisel to create intricate details on the sculpture. Olumide observes his set of chisels and sees one that appears to be sharp and in perfect condition. However, while Olumide is talking to a fellow artisan, a child from the village accidentally drops the chisel, causing it to become blunt and damaged. Olumide does not notice the damaged chisel on the ground.
+Sentence: However, while Olumide is talking to a fellow artisan, a child from the village accidentally drops the chisel, causing it to become blunt and damaged.
+Knows about or notices change: No
+Edit: Olumide, a skilled woodcarver in a Nigerian village, is preparing to carve a beautiful sculpture for the village chief. Olumide wants to use a sharp chisel to create intricate details on the sculpture. Olumide observes his set of chisels and sees one that appears to be sharp and in perfect condition.
+
+Story:
+Abhay is a young farmer in a small Indian village. He wants to water his crops with the water stored in a large clay pot. Abhay checks the water level and sees that the pot is full. Unbeknownst to him, a hole in the bottom of the pot has caused the water to leak out, leaving the pot empty. Abhay notices the hole and the water leaking out.
+Sentence: Unbeknownst to him, a hole in the bottom of the pot has caused the water to leak out, leaving the pot empty.
+Knows about or notices change: Yes
+Original Story: Abhay is a young farmer in a small Indian village. He wants to water his crops with the water stored in a large clay pot. Abhay checks the water level and sees that the pot is full. Unbeknownst to him, a hole in the bottom of the pot has caused the water to leak out, leaving the pot empty. Abhay notices the hole and the water leaking out.
+
+Now, it is your turn. Please respond following the format in the examples.
+Story:
+{story}
+"""
+
+########## PT + Sim in one prompt ############
+"""
+I will give you a sequence of events about some characters, that takes place in multiple locations. and a question that asks about the sequence of events. Your task is in two steps.
+
+Step 1. You will first output only the events that the specified character, {character}, knows about.
+Here are a few rules:
+    1. A character knows about all events that they do.
+    2. If a character is in a certain room/location, that character knows about all other events that happens in the room. This includes other characters leaving or exiting the location, the locations of objects in that location, and whether somebody moves an object to another place.
+    3. If a character leaves a location, and is NOT in that location, they no longer know about any events that happen within that location. However, they can re-enter the location.
+
+Step 2. You will then imagine you are the main character, {character}, then answer the question given to you based on the story you have rewritten. Ignore the previous sequence of events -- your rewritten sequence of events are now the new events. Do not output a blank answer or say you do not have enough information.
+
+Do Step 1 and Step 2 combined.
+
+Story: {story}
+Output the sentences that only {character} knows about.
+Question: {question}
+
+
+Format your answer as follows:
+Step 1: (list of events)
+Step 2: Answer: (answer to question)
+"""
