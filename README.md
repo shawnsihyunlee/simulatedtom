@@ -1,6 +1,6 @@
 # Simulated Theory of Mind
 
-Public repository for "Hide and Seek: Simulated Theory of Mind Using LLMs".
+Public repository for "Think Twice: Perspective-Taking Improves Large Language Models’ Theory-of-Mind Capabilities".
 
 ## Example Commands
 
